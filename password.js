@@ -5,7 +5,7 @@ document.getElementById('passwordForm').addEventListener('submit', function(even
   var passwordInput = document.getElementById('passwordInput').value;
   var errorMessage = document.getElementById('errorMessage');
   
-  if (passwordInput === '123456') { // Change 'yourpassword' to your actual password
+  if (passwordInput === '1234567') { // Change 'yourpassword' to your actual password
     // Redirect to another page upon successful login
     window.location.href = 'https://moingit619.github.io/moingit619/workhub.html'; // Redirect to the next page
   } else {
